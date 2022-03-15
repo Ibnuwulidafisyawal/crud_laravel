@@ -22,6 +22,8 @@ class CreateStudentsTable extends Migration
             $table->string('ket');
             $table->timestamps();
         });
+
+        
     }
 
     /**

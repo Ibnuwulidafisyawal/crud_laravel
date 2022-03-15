@@ -101,7 +101,6 @@ class StudentController extends Controller
         ]);
 
         $student->update($request->all());
-
         return redirect()->route('students.index')->with('succes','Berhasil update !!');
 
     }
@@ -116,7 +115,6 @@ class StudentController extends Controller
     {
         //  
         $student->delete();
-
         return redirect()->route('students.index')->with('succes','Berhasil Hapus !');
     }
 }
